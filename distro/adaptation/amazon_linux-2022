@@ -1,6 +1,7 @@
 autopoint: gettext
 btrfs-tools:
 gfortran: gcc-gfortran
+libarchive-tools: libarchive-devel
 libbabeltrace-ctf-dev: libbabeltrace-devel
 libbabeltrace-ctf1: libbabeltrace
 libbabeltrace-dev: libbabeltrace-devel
@@ -24,6 +25,7 @@ libvirt-daemon-system:
 libvirt-dev:
 libyaml-cpp-dev: yaml-cpp-devel
 libzstd-dev: libzstd-devel
+linux-cpupower: 
 linux-libc-dev: kernel-headers
 mysql-server:
 network-manager:
