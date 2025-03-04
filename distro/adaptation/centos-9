@@ -59,3 +59,4 @@ rusersd:
 udhcpc: busybox
 update-inetd:
 xutils-dev:
+libunwind:
