@@ -322,6 +322,10 @@ install_base_support()
 		install_fakeroot
 	fi
 
+	if [ "$distro" = "amazon_linux" -a "$_system_version" = "2023" ]; then
+		dnf install -y ruby-devel
+	fi
+
 	# https://bundler.io/compatibility.html
 	# Bundler compatibility with Ruby & RubyGems
 	# The latest Bundler release should always support, at the very least, all rubies that have not yet reached their End of Life date.

@@ -16,6 +16,7 @@ RUN dnf upgrade -y && \
     dnf install -y \
     # kernel-tools installs turbostat
     kernel-tools \
+    bsdtar \
     make \
     # procps installs vmstat, sysctl, etc to partially persistent commonly used dependencies
     procps \
