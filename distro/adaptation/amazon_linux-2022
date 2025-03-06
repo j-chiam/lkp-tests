@@ -8,9 +8,6 @@ libbabeltrace-ctf1: libbabeltrace
 libbabeltrace-dev: libbabeltrace-devel
 libbsd-dev: libbsd-devel
 libbsd0: libbsd
-libc6-dev-x32:
-libcairo2-dev: cairo-devel
-libcap-dev: libcap-devel
 libcapstone-dev: capstone-devel
 libdw-dev: elfutils-devel
 libelf-dev: elfutils-devel
@@ -21,7 +18,6 @@ libpfm4: libpfm-devel
 libpfm4-dev: libpfm-devel
 libpng12-dev:
 libreadline5: compat-readline5
-libssl: openssl-devel
 libstdc++-dev: libstdc++-devel libstdc++-static
 libtsan0: libtsan
 libtracefs-dev:
@@ -30,8 +26,7 @@ libvirt-daemon-system:
 libvirt-dev:
 libyaml-cpp-dev: yaml-cpp-devel
 libzstd-dev: libzstd-devel
-linux-cpupower: 
-linux-libc-dev: kernel-headers
+linux-cpupower:
 mysql-server:
 network-manager:
 openbsd-inetd:
