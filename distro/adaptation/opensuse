@@ -186,6 +186,7 @@ libpcap-dev: libpcap-devel
 libpcap: libpcap1
 libpci-dev: pciutils-devel
 libpciaccess-dev: libpciaccess-devel
+libpcre3-dev: pcre-devel
 libpcre3: libpcre1
 libperl-dev: perl
 libperl5: perl
@@ -214,6 +215,7 @@ libsctp1: lksctp-tools
 libsdl2-2.0-0: libSDL2-2_0-0
 libsdl2-dev: libSDL2-devel
 libSDL2-devel: libSDL2-devel
+libSDL2-devel: libSDL2-devel
 libseccomp-dev: libseccomp-devel
 libselinux1-dev: libselinux-devel
 libslang2-dev: slang-devel
@@ -240,6 +242,7 @@ libtool-bin: libtool
 libtraceevent-dev: libtraceevent-devel
 libtracefs-dev: libtracefs-devel
 libudev-dev: libudev-devel
+libudev-devel: libudev-devel
 libunwind-dev: libunwind-devel
 liburcu-dev: liburcu-devel
 liburcu: liburcu6
@@ -271,6 +274,7 @@ libxkbcommon-dev: libxkbcommon-devel
 libxml2-dev: libxml2-devel
 libxmlrpc-core-c3-dev: xmlrpc-c-devel
 libxmlrpc-core-c3: libxmlrpc3
+libxslt: libxslt1.1
 libxxhash-dev: xxhash-devel
 libyaml-dev: libyaml-devel
 libzmq3-dev: zeromq-devel
@@ -287,6 +291,7 @@ man-db: man
 mariadb-server: mariadb
 mesa-utils: Mesa-demo-x
 mpi-default-bin: openmpi
+mysql-server: mysql
 nbd-client: nbd
 nbd-server: nbd
 ncurses-bin: ncurses
@@ -307,6 +312,7 @@ openjdk: java-11-openjdk
 openmpi-bin: openmpi
 openvswitch-common: openvswitch
 perl-modules-5: perl
+php-cli: php7-cli
 php-xml: php7
 po-debconf: gettext-runtime
 python3-crypto: python3-pycrypto
