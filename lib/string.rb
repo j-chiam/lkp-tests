@@ -1,5 +1,6 @@
 #!/usr/bin/env ruby
-require 'active_support/core_ext/string/filters'
+
+require 'active_support/core_ext/string'
 
 REGEX_ANSI_COLOR = /\e\[([0-9;]+m|[mK])/.freeze
 class String
