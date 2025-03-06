@@ -2,7 +2,7 @@
 
 detect_system
 
-if (( $_system_version >= 9 )); then
+if (( $_system_version >= 8 )); then
 	package_manager=dnf
 
 	# use --allowerasing to resolve issue on centos 9
