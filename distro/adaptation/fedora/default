@@ -365,11 +365,11 @@ nbd-client: nbd
 nbd-server: nbd
 ncurses-bin: ncurses
 netcat-openbsd: nmap-ncat
-netpipe-lam: NetPIPE
-netpipe-mpich2: NetPIPE
-netpipe-openmpi: NetPIPE
-netpipe-pvm: NetPIPE
-netpipe-tcp: NetPIPE
+netpipe-lam:
+netpipe-mpich2:
+netpipe-openmpi:
+netpipe-pvm:
+netpipe-tcp:
 network-manager: NetworkManager
 nfs-common: nfs-utils
 nfs-kernel-server: nfs-utils
